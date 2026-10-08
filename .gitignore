@@ -1,0 +1,17 @@
+.venv/
+.tools/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+tmp/
+output/
+*.mkv
+*.mp4
+third_party/wheels/
+third_party/licenses/
+third_party/pip-staging/
+target/
+third_party/rust/
+third_party/opencv-*.zip
+third_party/anilines/*.pth
+third_party/anilines/*.onnx

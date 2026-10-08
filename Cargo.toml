@@ -1,0 +1,19 @@
+[package]
+name = "vecanima"
+version = "0.1.0"
+edition = "2024"
+description = "Rust CLI for stroke and region separated animation vectorization"
+
+[features]
+default = ["opencv-backend"]
+opencv-backend = ["dep:opencv", "dep:resvg"]
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+num-bigint = "0.4"
+opencv = { version = "0.101", optional = true, default-features = false, features = ["clang-runtime", "imgcodecs", "imgproc", "dnn"] }
+resvg = { version = "0.48.1", default-features = false, optional = true }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version="1", features=["float_roundtrip"] }
+sha2 = "0.10"
