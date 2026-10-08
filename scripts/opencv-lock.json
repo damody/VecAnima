@@ -1,0 +1,7 @@
+{
+  "version": "4.14.0",
+  "archive": "third_party/opencv-4.14.0.zip",
+  "sha256": "831375584ff7a680cbb4efbb242cf949d14a37a3c37cb029c503672fe035abb6",
+  "bytes": 101246139,
+  "origin": "User-supplied OpenCV source archive"
+}
